@@ -1,0 +1,12 @@
+services:
+  fkf-tracker:
+    build: .
+    container_name: fkf-tracker
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - TZ=Europe/Budapest
+      - FKF_RUN_TIME=09:00
+      - NOTIFICATION_PERIOD=2
+     # - FKF_RUN_ON_START=true   # uncomment to test immediately on container start
