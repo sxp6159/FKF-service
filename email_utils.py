@@ -39,7 +39,7 @@ def send_email(subject: str, html_body: str, recipients: list[str]) -> None:
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = "Szelektív hulladék" #sender
+    msg["From"] = os.environ.get("FROM_FRIENDLY_NAME", "Szelektív hulladék") #sender
     msg["To"] = ", ".join(recipients)
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
