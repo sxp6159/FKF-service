@@ -202,9 +202,6 @@ class FKF:
                 address = location["publicPlace"].replace("---", " ")
                 house_number = location["houseNumber"]
 
-                print_colored(
-                    f"Next selective collection for {address} {house_number} is on {date_str}", GREEN
-                )
                 time_difference = event_date - current_date
                 days = "days" if time_difference.days != 1 else "day"
 
