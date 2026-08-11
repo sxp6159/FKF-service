@@ -208,6 +208,8 @@ class FKF:
                 time_difference = event_date - current_date
                 days = "days" if time_difference.days != 1 else "day"
 
+                print_colored(f"Next selective collection for {address} {house_number} is in {time_difference.days} {days} on {date_str}", GREEN)
+
                 image_url = (
                     "https://mohubudapest.hu/storage/app/media/csempe%20k%C3%A9pek/"
                     "cropped-images/szelekt%C3%ADv%20kep-0-0-0-0-1728393471.jpg"
