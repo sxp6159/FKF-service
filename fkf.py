@@ -39,7 +39,7 @@ LOCATIONS = [
         "district": "1037",
         "publicPlace": "Királylaki---út",
         "houseNumber": "11",
-        "recipients": ["srecko_podvinski@yahoo.com", "sapij17@gmail.com"],
+        "recipients": ["srecko_podvinski@yahoo.com", "sapij17@gmail.com, sapibela@gmail.com"],
     },
     {
         "district": "1037",
