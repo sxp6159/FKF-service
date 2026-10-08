@@ -41,12 +41,12 @@ LOCATIONS = [
         "houseNumber": "11",
         "recipients": ["srecko_podvinski@yahoo.com", "sapij17@gmail.com, sapibela@gmail.com"],
     },
-    {
-        "district": "1037",
-        "publicPlace": "Solymárvölgyi---út",
-        "houseNumber": "13",
-        "recipients": ["srecko_podvinski@yahoo.com"],
-    },
+    # {
+    #     "district": "1037",
+    #     "publicPlace": "Solymárvölgyi---út",
+    #     "houseNumber": "13",
+    #     "recipients": ["srecko_podvinski@yahoo.com"],
+    # },
 ]
 
 
